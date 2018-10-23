@@ -1,0 +1,1406 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="aid" xml:space="preserve">
+    <value>549000912</value>
+  </data>
+  <data name="fpinfo" xml:space="preserve">
+    <value>fpsig=11004C4517696DB0E347016BBAF1B840538C482C598A587E4C42D67251B887C88693AD45BCBE166AE95DBCFB80360A93DA2D</value>
+  </data>
+  <data name="Json" xml:space="preserve">
+    <value>if (typeof JSON !== 'object') {
+    JSON = {};
+}
+
+(function () {
+    'use strict';
+
+    var rx_one = /^[\],:{}\s]*$/,
+        rx_two = /\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})/g,
+        rx_three = /"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g,
+        rx_four = /(?:^|:|,)(?:\s*\[)+/g,
+        rx_escapable = /[\\\"\u0000-\u001f\u007f-\u009f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,
+        rx_dangerous = /[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g;
+
+    function f(n) {
+        // Format integers to have at least two digits.
+        return n &lt; 10 
+            ? '0' + n 
+            : n;
+    }
+
+    function this_value() {
+        return this.valueOf();
+    }
+
+    if (typeof Date.prototype.toJSON !== 'function') {
+
+        Date.prototype.toJSON = function () {
+
+            return isFinite(this.valueOf())
+                ? this.getUTCFullYear() + '-' +
+                        f(this.getUTCMonth() + 1) + '-' +
+                        f(this.getUTCDate()) + 'T' +
+                        f(this.getUTCHours()) + ':' +
+                        f(this.getUTCMinutes()) + ':' +
+                        f(this.getUTCSeconds()) + 'Z'
+                : null;
+        };
+
+        Boolean.prototype.toJSON = this_value;
+        Number.prototype.toJSON = this_value;
+        String.prototype.toJSON = this_value;
+    }
+
+    var gap,
+        indent,
+        meta,
+        rep;
+
+
+    function quote(string) {
+
+// If the string contains no control characters, no quote characters, and no
+// backslash characters, then we can safely slap some quotes around it.
+// Otherwise we must also replace the offending characters with safe escape
+// sequences.
+
+        rx_escapable.lastIndex = 0;
+        return rx_escapable.test(string) 
+            ? '"' + string.replace(rx_escapable, function (a) {
+                var c = meta[a];
+                return typeof c === 'string'
+                    ? c
+                    : '\\u' + ('0000' + a.charCodeAt(0).toString(16)).slice(-4);
+            }) + '"' 
+            : '"' + string + '"';
+    }
+
+
+    function str(key, holder) {
+
+// Produce a string from holder[key].
+
+        var i,          // The loop counter.
+            k,          // The member key.
+            v,          // The member value.
+            length,
+            mind = gap,
+            partial,
+            value = holder[key];
+
+// If the value has a toJSON method, call it to obtain a replacement value.
+
+        if (value &amp;&amp; typeof value === 'object' &amp;&amp;
+                typeof value.toJSON === 'function') {
+            value = value.toJSON(key);
+        }
+
+// If we were called with a replacer function, then call the replacer to
+// obtain a replacement value.
+
+        if (typeof rep === 'function') {
+            value = rep.call(holder, key, value);
+        }
+
+// What happens next depends on the value's type.
+
+        switch (typeof value) {
+        case 'string':
+            return quote(value);
+
+        case 'number':
+
+// JSON numbers must be finite. Encode non-finite numbers as null.
+
+            return isFinite(value) 
+                ? String(value) 
+                : 'null';
+
+        case 'boolean':
+        case 'null':
+
+// If the value is a boolean or null, convert it to a string. Note:
+// typeof null does not produce 'null'. The case is included here in
+// the remote chance that this gets fixed someday.
+
+            return String(value);
+
+// If the type is 'object', we might be dealing with an object or an array or
+// null.
+
+        case 'object':
+
+// Due to a specification blunder in ECMAScript, typeof null is 'object',
+// so watch out for that case.
+
+            if (!value) {
+                return 'null';
+            }
+
+// Make an array to hold the partial results of stringifying this object value.
+
+            gap += indent;
+            partial = [];
+
+// Is the value an array?
+
+            if (Object.prototype.toString.apply(value) === '[object Array]') {
+
+// The value is an array. Stringify every element. Use null as a placeholder
+// for non-JSON values.
+
+                length = value.length;
+                for (i = 0; i &lt; length; i += 1) {
+                    partial[i] = str(i, value) || 'null';
+                }
+
+// Join all of the elements together, separated with commas, and wrap them in
+// brackets.
+
+                v = partial.length === 0
+                    ? '[]'
+                    : gap
+                        ? '[\n' + gap + partial.join(',\n' + gap) + '\n' + mind + ']'
+                        : '[' + partial.join(',') + ']';
+                gap = mind;
+                return v;
+            }
+
+// If the replacer is an array, use it to select the members to be stringified.
+
+            if (rep &amp;&amp; typeof rep === 'object') {
+                length = rep.length;
+                for (i = 0; i &lt; length; i += 1) {
+                    if (typeof rep[i] === 'string') {
+                        k = rep[i];
+                        v = str(k, value);
+                        if (v) {
+                            partial.push(quote(k) + (
+                                gap 
+                                    ? ': ' 
+                                    : ':'
+                            ) + v);
+                        }
+                    }
+                }
+            } else {
+
+// Otherwise, iterate through all of the keys in the object.
+
+                for (k in value) {
+                    if (Object.prototype.hasOwnProperty.call(value, k)) {
+                        v = str(k, value);
+                        if (v) {
+                            partial.push(quote(k) + (
+                                gap 
+                                    ? ': ' 
+                                    : ':'
+                            ) + v);
+                        }
+                    }
+                }
+            }
+
+// Join all of the member texts together, separated with commas,
+// and wrap them in braces.
+
+            v = partial.length === 0
+                ? '{}'
+                : gap
+                    ? '{\n' + gap + partial.join(',\n' + gap) + '\n' + mind + '}'
+                    : '{' + partial.join(',') + '}';
+            gap = mind;
+            return v;
+        }
+    }
+
+// If the JSON object does not yet have a stringify method, give it one.
+
+    if (typeof JSON.stringify !== 'function') {
+        meta = {    // table of character substitutions
+            '\b': '\\b',
+            '\t': '\\t',
+            '\n': '\\n',
+            '\f': '\\f',
+            '\r': '\\r',
+            '"': '\\"',
+            '\\': '\\\\'
+        };
+        JSON.stringify = function (value, replacer, space) {
+
+// The stringify method takes a value and an optional replacer, and an optional
+// space parameter, and returns a JSON text. The replacer can be a function
+// that can replace values, or an array of strings that will select the keys.
+// A default replacer method can be provided. Use of the space parameter can
+// produce text that is more easily readable.
+
+            var i;
+            gap = '';
+            indent = '';
+
+// If the space parameter is a number, make an indent string containing that
+// many spaces.
+
+            if (typeof space === 'number') {
+                for (i = 0; i &lt; space; i += 1) {
+                    indent += ' ';
+                }
+
+// If the space parameter is a string, it will be used as the indent string.
+
+            } else if (typeof space === 'string') {
+                indent = space;
+            }
+
+// If there is a replacer, it must be a function or an array.
+// Otherwise, throw an error.
+
+            rep = replacer;
+            if (replacer &amp;&amp; typeof replacer !== 'function' &amp;&amp;
+                    (typeof replacer !== 'object' ||
+                    typeof replacer.length !== 'number')) {
+                throw new Error('JSON.stringify');
+            }
+
+// Make a fake root object containing our value under the key of ''.
+// Return the result of stringifying the value.
+
+            return str('', {'': value});
+        };
+    }
+
+
+// If the JSON object does not yet have a parse method, give it one.
+
+    if (typeof JSON.parse !== 'function') {
+        JSON.parse = function (text, reviver) {
+
+// The parse method takes a text and an optional reviver function, and returns
+// a JavaScript value if the text is a valid JSON text.
+
+            var j;
+
+            function walk(holder, key) {
+
+// The walk method is used to recursively walk the resulting structure so
+// that modifications can be made.
+
+                var k, v, value = holder[key];
+                if (value &amp;&amp; typeof value === 'object') {
+                    for (k in value) {
+                        if (Object.prototype.hasOwnProperty.call(value, k)) {
+                            v = walk(value, k);
+                            if (v !== undefined) {
+                                value[k] = v;
+                            } else {
+                                delete value[k];
+                            }
+                        }
+                    }
+                }
+                return reviver.call(holder, key, value);
+            }
+
+
+// Parsing happens in four stages. In the first stage, we replace certain
+// Unicode characters with escape sequences. JavaScript handles many characters
+// incorrectly, either silently deleting them, or treating them as line endings.
+
+            text = String(text);
+            rx_dangerous.lastIndex = 0;
+            if (rx_dangerous.test(text)) {
+                text = text.replace(rx_dangerous, function (a) {
+                    return '\\u' +
+                            ('0000' + a.charCodeAt(0).toString(16)).slice(-4);
+                });
+            }
+
+// In the second stage, we run the text against regular expressions that look
+// for non-JSON patterns. We are especially concerned with '()' and 'new'
+// because they can cause invocation, and '=' because it can cause mutation.
+// But just to be safe, we want to reject all unexpected forms.
+
+// We split the second stage into 4 regexp operations in order to work around
+// crippling inefficiencies in IE's and Safari's regexp engines. First we
+// replace the JSON backslash pairs with '@' (a non-JSON character). Second, we
+// replace all simple value tokens with ']' characters. Third, we delete all
+// open brackets that follow a colon or comma or that begin the text. Finally,
+// we look to see that the remaining characters are only whitespace or ']' or
+// ',' or ':' or '{' or '}'. If that is so, then the text is safe for eval.
+
+            if (
+                rx_one.test(
+                    text
+                        .replace(rx_two, '@')
+                        .replace(rx_three, ']')
+                        .replace(rx_four, '')
+                )
+            ) {
+
+// In the third stage we use the eval function to compile the text into a
+// JavaScript structure. The '{' operator is subject to a syntactic ambiguity
+// in JavaScript: it can begin a block or an object literal. We wrap the text
+// in parens to eliminate the ambiguity.
+
+                j = eval('(' + text + ')');
+
+// In the optional fourth stage, we recursively walk the new structure, passing
+// each name/value pair to a reviver function for possible transformation.
+
+                return typeof reviver === 'function'
+                    ? walk({'': j}, '')
+                    : j;
+            }
+
+// If the text is not JSON parseable, then a SyntaxError is thrown.
+
+            throw new SyntaxError('JSON.parse');
+        };
+    }
+}());
+
+function Getvalue(json,parameter){
+try{
+var data =JSON.parse(json);
+return eval("data."+parameter);
+}catch(err){
+return "";
+}
+}
+function Setvalue(json,parameter,value){
+try{
+var data =JSON.parse(json);
+eval("data."+parameter+"="+value);
+return JSON.stringify(data);
+}catch(err){
+return "";
+}
+}
+function del(json,parameter){
+try{
+var data =JSON.parse(json);
+eval(" delete data."+parameter);
+return JSON.stringify(data);
+}catch(err){
+return "";
+}
+}
+function GetOneJson(json,parameter){
+try{
+var data =JSON.parse(json);
+return eval("JSON.stringify("+"data."+parameter+")")
+}catch(err){
+return "";
+}
+}</value>
+  </data>
+  <data name="ua" xml:space="preserve">
+    <value>TW96aWxsYS81LjAgKGlQaG9uZTsgQ1BVIGlQaG9uZSBPUyA5XzEgbGlrZSBNYWMgT1MgWCkgQXBwbGVXZWJLaXQvNjAxLjEuNDYgKEtIVE1MLCBsaWtlIEdlY2tvKSBWZXJzaW9uLzkuMCBNb2JpbGUvMTNCMTQzIFNhZmFyaS82MDEuMQ==</value>
+  </data>
+  <data name="密码加密JS" xml:space="preserve">
+    <value>var window={};var navigator={};$=window.$||{},pt=window.pt||{},RSA=pt.RSA=function(){function t(t,e){return new r(t,e)}
+function e(t,e){if(e&lt;t.length+11)return uv_alert("Message too long for RSA"),null;for(var i=new Array,n=t.length-1;n&gt;=0&amp;&amp;e&gt;0;){var o=t.charCodeAt(n--);i[--e]=o}
+i[--e]=0;for(var p=new Y,s=new Array;e&gt;2;){for(s[0]=0;0==s[0];)p.nextBytes(s);i[--e]=s[0]}
+return i[--e]=2,i[--e]=0,new r(i)}
+function i(){this.n=null,this.e=0,this.d=null,this.p=null,this.q=null,this.dmp1=null,this.dmq1=null,this.coeff=null}
+function n(e,i){null!=e&amp;&amp;null!=i&amp;&amp;e.length&gt;0&amp;&amp;i.length&gt;0?(this.n=t(e,16),this.e=parseInt(i,16)):uv_alert("Invalid RSA public key")}
+function o(t){return t.modPowInt(this.e,this.n)}
+function p(t){var i=e(t,this.n.bitLength()+7&gt;&gt;3);if(null==i)return null;var n=this.doPublic(i);if(null==n)return null;var o=n.toString(16);return 0==(1&amp;o.length)?o:"0"+o}
+function r(t,e,i){null!=t&amp;&amp;("number"==typeof t?this.fromNumber(t,e,i):null==e&amp;&amp;"string"!=typeof t?this.fromString(t,256):this.fromString(t,e))}
+function s(){return new r(null)}
+function l(t,e,i,n,o,p){for(;--p&gt;=0;){var r=e*this[t++]+i[n]+o;o=Math.floor(r/67108864),i[n++]=67108863&amp;r}
+return o}
+function a(t,e,i,n,o,p){for(var r=32767&amp;e,s=e&gt;&gt;15;--p&gt;=0;){var l=32767&amp;this[t],a=this[t++]&gt;&gt;15,c=s*l+a*r;l=r*l+((32767&amp;c)&lt;&lt;15)+i[n]+(1073741823&amp;o),o=(l&gt;&gt;&gt;30)+(c&gt;&gt;&gt;15)+s*a+(o&gt;&gt;&gt;30),i[n++]=1073741823&amp;l}
+return o}
+function c(t,e,i,n,o,p){for(var r=16383&amp;e,s=e&gt;&gt;14;--p&gt;=0;){var l=16383&amp;this[t],a=this[t++]&gt;&gt;14,c=s*l+a*r;l=r*l+((16383&amp;c)&lt;&lt;14)+i[n]+o,o=(l&gt;&gt;28)+(c&gt;&gt;14)+s*a,i[n++]=268435455&amp;l}
+return o}
+function u(t){return ut.charAt(t)}
+function g(t,e){var i=gt[t.charCodeAt(e)];return null==i?-1:i}
+function d(t){for(var e=this.t-1;e&gt;=0;--e)t[e]=this[e];t.t=this.t,t.s=this.s}
+function h(t){this.t=1,this.s=0&gt;t?-1:0,t&gt;0?this[0]=t:-1&gt;t?this[0]=t+DV:this.t=0}
+function f(t){var e=s();return e.fromInt(t),e}
+function m(t,e){var i;if(16==e)i=4;else if(8==e)i=3;else if(256==e)i=8;else if(2==e)i=1;else if(32==e)i=5;else{if(4!=e)return void this.fromRadix(t,e);i=2}
+this.t=0,this.s=0;for(var n=t.length,o=!1,p=0;--n&gt;=0;){var s=8==i?255&amp;t[n]:g(t,n);0&gt;s?"-"==t.charAt(n)&amp;&amp;(o=!0):(o=!1,0==p?this[this.t++]=s:p+i&gt;this.DB?(this[this.t-1]|=(s&amp;(1&lt;&lt;this.DB-p)-1)&lt;&lt;p,this[this.t++]=s&gt;&gt;this.DB-p):this[this.t-1]|=s&lt;&lt;p,p+=i,p&gt;=this.DB&amp;&amp;(p-=this.DB))}
+8==i&amp;&amp;0!=(128&amp;t[0])&amp;&amp;(this.s=-1,p&gt;0&amp;&amp;(this[this.t-1]|=(1&lt;&lt;this.DB-p)-1&lt;&lt;p)),this.clamp(),o&amp;&amp;r.ZERO.subTo(this,this)}
+function _(){for(var t=this.s&amp;this.DM;this.t&gt;0&amp;&amp;this[this.t-1]==t;)--this.t}
+function $(t){if(this.s&lt;0)return"-"+this.negate().toString(t);var e;if(16==t)e=4;else if(8==t)e=3;else if(2==t)e=1;else if(32==t)e=5;else{if(4!=t)return this.toRadix(t);e=2}
+var i,n=(1&lt;&lt;e)-1,o=!1,p="",r=this.t,s=this.DB-r*this.DB%e;if(r--&gt;0)for(s&lt;this.DB&amp;&amp;(i=this[r]&gt;&gt;s)&gt;0&amp;&amp;(o=!0,p=u(i));r&gt;=0;)e&gt;s?(i=(this[r]&amp;(1&lt;&lt;s)-1)&lt;&lt;e-s,i|=this[--r]&gt;&gt;(s+=this.DB-e)):(i=this[r]&gt;&gt;(s-=e)&amp;n,0&gt;=s&amp;&amp;(s+=this.DB,--r)),i&gt;0&amp;&amp;(o=!0),o&amp;&amp;(p+=u(i));return o?p:"0"}
+function v(){var t=s();return r.ZERO.subTo(this,t),t}
+function w(){return this.s&lt;0?this.negate():this}
+function y(t){var e=this.s-t.s;if(0!=e)return e;var i=this.t;if(e=i-t.t,0!=e)return e;for(;--i&gt;=0;)if(0!=(e=this[i]-t[i]))return e;return 0}
+function k(t){var e,i=1;return 0!=(e=t&gt;&gt;&gt;16)&amp;&amp;(t=e,i+=16),0!=(e=t&gt;&gt;8)&amp;&amp;(t=e,i+=8),0!=(e=t&gt;&gt;4)&amp;&amp;(t=e,i+=4),0!=(e=t&gt;&gt;2)&amp;&amp;(t=e,i+=2),0!=(e=t&gt;&gt;1)&amp;&amp;(t=e,i+=1),i}
+function b(){return this.t&lt;=0?0:this.DB*(this.t-1)+k(this[this.t-1]^this.s&amp;this.DM)}
+function q(t,e){var i;for(i=this.t-1;i&gt;=0;--i)e[i+t]=this[i];for(i=t-1;i&gt;=0;--i)e[i]=0;e.t=this.t+t,e.s=this.s}
+function S(t,e){for(var i=t;i&lt;this.t;++i)e[i-t]=this[i];e.t=Math.max(this.t-t,0),e.s=this.s}
+function T(t,e){var i,n=t%this.DB,o=this.DB-n,p=(1&lt;&lt;o)-1,r=Math.floor(t/this.DB),s=this.s&lt;&lt;n&amp;this.DM;for(i=this.t-1;i&gt;=0;--i)e[i+r+1]=this[i]&gt;&gt;o|s,s=(this[i]&amp;p)&lt;&lt;n;for(i=r-1;i&gt;=0;--i)e[i]=0;e[r]=s,e.t=this.t+r+1,e.s=this.s,e.clamp()}
+function C(t,e){e.s=this.s;var i=Math.floor(t/this.DB);if(i&gt;=this.t)return void(e.t=0);var n=t%this.DB,o=this.DB-n,p=(1&lt;&lt;n)-1;e[0]=this[i]&gt;&gt;n;for(var r=i+1;r&lt;this.t;++r)e[r-i-1]|=(this[r]&amp;p)&lt;&lt;o,e[r-i]=this[r]&gt;&gt;n;n&gt;0&amp;&amp;(e[this.t-i-1]|=(this.s&amp;p)&lt;&lt;o),e.t=this.t-i,e.clamp()}
+function x(t,e){for(var i=0,n=0,o=Math.min(t.t,this.t);o&gt;i;)n+=this[i]-t[i],e[i++]=n&amp;this.DM,n&gt;&gt;=this.DB;if(t.t&lt;this.t){for(n-=t.s;i&lt;this.t;)n+=this[i],e[i++]=n&amp;this.DM,n&gt;&gt;=this.DB;n+=this.s}
+else{for(n+=this.s;i&lt;t.t;)n-=t[i],e[i++]=n&amp;this.DM,n&gt;&gt;=this.DB;n-=t.s}
+e.s=0&gt;n?-1:0,-1&gt;n?e[i++]=this.DV+n:n&gt;0&amp;&amp;(e[i++]=n),e.t=i,e.clamp()}
+function L(t,e){var i=this.abs(),n=t.abs(),o=i.t;for(e.t=o+n.t;--o&gt;=0;)e[o]=0;for(o=0;o&lt;n.t;++o)e[o+i.t]=i.am(0,n[o],e,o,0,i.t);e.s=0,e.clamp(),this.s!=t.s&amp;&amp;r.ZERO.subTo(e,e)}
+function N(t){for(var e=this.abs(),i=t.t=2*e.t;--i&gt;=0;)t[i]=0;for(i=0;i&lt;e.t-1;++i){var n=e.am(i,e[i],t,2*i,0,1);(t[i+e.t]+=e.am(i+1,2*e[i],t,2*i+1,n,e.t-i-1))&gt;=e.DV&amp;&amp;(t[i+e.t]-=e.DV,t[i+e.t+1]=1)}
+t.t&gt;0&amp;&amp;(t[t.t-1]+=e.am(i,e[i],t,2*i,0,1)),t.s=0,t.clamp()}
+function E(t,e,i){var n=t.abs();if(!(n.t&lt;=0)){var o=this.abs();if(o.t&lt;n.t)return null!=e&amp;&amp;e.fromInt(0),void(null!=i&amp;&amp;this.copyTo(i));null==i&amp;&amp;(i=s());var p=s(),l=this.s,a=t.s,c=this.DB-k(n[n.t-1]);c&gt;0?(n.lShiftTo(c,p),o.lShiftTo(c,i)):(n.copyTo(p),o.copyTo(i));var u=p.t,g=p[u-1];if(0!=g){var d=g*(1&lt;&lt;this.F1)+(u&gt;1?p[u-2]&gt;&gt;this.F2:0),h=this.FV/d,f=(1&lt;&lt;this.F1)/d,m=1&lt;&lt;this.F2,_=i.t,$=_-u,v=null==e?s():e;for(p.dlShiftTo($,v),i.compareTo(v)&gt;=0&amp;&amp;(i[i.t++]=1,i.subTo(v,i)),r.ONE.dlShiftTo(u,v),v.subTo(p,p);p.t&lt;u;)p[p.t++]=0;for(;--$&gt;=0;){var w=i[--_]==g?this.DM:Math.floor(i[_]*h+(i[_-1]+m)*f);if((i[_]+=p.am(0,w,i,$,0,u))&lt;w)for(p.dlShiftTo($,v),i.subTo(v,i);i[_]&lt;--w;)i.subTo(v,i)}
+null!=e&amp;&amp;(i.drShiftTo(u,e),l!=a&amp;&amp;r.ZERO.subTo(e,e)),i.t=u,i.clamp(),c&gt;0&amp;&amp;i.rShiftTo(c,i),0&gt;l&amp;&amp;r.ZERO.subTo(i,i)}}}
+function A(t){var e=s();return this.abs().divRemTo(t,null,e),this.s&lt;0&amp;&amp;e.compareTo(r.ZERO)&gt;0&amp;&amp;t.subTo(e,e),e}
+function P(t){this.m=t}
+function I(t){return t.s&lt;0||t.compareTo(this.m)&gt;=0?t.mod(this.m):t}
+function H(t){return t}
+function M(t){t.divRemTo(this.m,null,t)}
+function Q(t,e,i){t.multiplyTo(e,i),this.reduce(i)}
+function D(t,e){t.squareTo(e),this.reduce(e)}
+function V(){if(this.t&lt;1)return 0;var t=this[0];if(0==(1&amp;t))return 0;var e=3&amp;t;return e=e*(2-(15&amp;t)*e)&amp;15,e=e*(2-(255&amp;t)*e)&amp;255,e=e*(2-((65535&amp;t)*e&amp;65535))&amp;65535,e=e*(2-t*e%this.DV)%this.DV,e&gt;0?this.DV-e:-e}
+function j(t){this.m=t,this.mp=t.invDigit(),this.mpl=32767&amp;this.mp,this.mph=this.mp&gt;&gt;15,this.um=(1&lt;&lt;t.DB-15)-1,this.mt2=2*t.t}
+function U(t){var e=s();return t.abs().dlShiftTo(this.m.t,e),e.divRemTo(this.m,null,e),t.s&lt;0&amp;&amp;e.compareTo(r.ZERO)&gt;0&amp;&amp;this.m.subTo(e,e),e}
+function O(t){var e=s();return t.copyTo(e),this.reduce(e),e}
+function B(t){for(;t.t&lt;=this.mt2;)t[t.t++]=0;for(var e=0;e&lt;this.m.t;++e){var i=32767&amp;t[e],n=i*this.mpl+((i*this.mph+(t[e]&gt;&gt;15)*this.mpl&amp;this.um)&lt;&lt;15)&amp;t.DM;for(i=e+this.m.t,t[i]+=this.m.am(0,n,t,e,0,this.m.t);t[i]&gt;=t.DV;)t[i]-=t.DV,t[++i]++}
+t.clamp(),t.drShiftTo(this.m.t,t),t.compareTo(this.m)&gt;=0&amp;&amp;t.subTo(this.m,t)}
+function R(t,e){t.squareTo(e),this.reduce(e)}
+function F(t,e,i){t.multiplyTo(e,i),this.reduce(i)}
+function z(){return 0==(this.t&gt;0?1&amp;this[0]:this.s)}
+function G(t,e){if(t&gt;4294967295||1&gt;t)return r.ONE;var i=s(),n=s(),o=e.convert(this),p=k(t)-1;for(o.copyTo(i);--p&gt;=0;)if(e.sqrTo(i,n),(t&amp;1&lt;&lt;p)&gt;0)e.mulTo(n,o,i);else{var l=i;i=n,n=l}
+return e.revert(i)}
+function W(t,e){var i;return i=256&gt;t||e.isEven()?new P(e):new j(e),this.exp(t,i)}
+function X(t){ht[ft++]^=255&amp;t,ht[ft++]^=t&gt;&gt;8&amp;255,ht[ft++]^=t&gt;&gt;16&amp;255,ht[ft++]^=t&gt;&gt;24&amp;255,ft&gt;=$t&amp;&amp;(ft-=$t)}
+function Z(){X((new Date).getTime())}
+function K(){if(null==dt){for(Z(),dt=nt(),dt.init(ht),ft=0;ft&lt;ht.length;++ft)ht[ft]=0;ft=0}
+return dt.next()}
+function J(t){var e;for(e=0;e&lt;t.length;++e)t[e]=K()}
+function Y(){}function tt(){this.i=0,this.j=0,this.S=new Array}
+function et(t){var e,i,n;for(e=0;256&gt;e;++e)this.S[e]=e;for(i=0,e=0;256&gt;e;++e)i=i+this.S[e]+t[e%t.length]&amp;255,n=this.S[e],this.S[e]=this.S[i],this.S[i]=n;this.i=0,this.j=0}
+function it(){var t;return this.i=this.i+1&amp;255,this.j=this.j+this.S[this.i]&amp;255,t=this.S[this.i],this.S[this.i]=this.S[this.j],this.S[this.j]=t,this.S[t+this.S[this.i]&amp;255]}
+function nt(){return new tt}
+function ot(t,e,n){e="e9a815ab9d6e86abbf33a4ac64e9196d5be44a09bd0ed6ae052914e1a865ac8331fed863de8ea697e9a7f63329e5e23cda09c72570f46775b7e39ea9670086f847d3c9c51963b131409b1e04265d9747419c635404ca651bbcbc87f99b8008f7f5824653e3658be4ba73e4480156b390bb73bc1f8b33578e7a4e12440e9396f2552c1aff1c92e797ebacdc37c109ab7bce2367a19c56a033ee04534723cc2558cb27368f5b9d32c04d12dbd86bbd68b1d99b7c349a8453ea75d1b2e94491ab30acf6c46a36a75b721b312bedf4e7aad21e54e9bcbcf8144c79b6e3c05eb4a1547750d224c0085d80e6da3907c3d945051c13c7c1dcefd6520ee8379c4f5231ed",n="10001";var o=new i;return o.setPublic(e,n),o.encrypt(t)}
+i.prototype.doPublic=o,i.prototype.setPublic=n,i.prototype.encrypt=p;var pt,rt=0xdeadbeefcafe,st=15715070==(16777215&amp;rt);st&amp;&amp;"Microsoft Internet Explorer"==navigator.appName?(r.prototype.am=a,pt=30):st&amp;&amp;"Netscape"!=navigator.appName?(r.prototype.am=l,pt=26):(r.prototype.am=c,pt=28),r.prototype.DB=pt,r.prototype.DM=(1&lt;&lt;pt)-1,r.prototype.DV=1&lt;&lt;pt;var lt=52;r.prototype.FV=Math.pow(2,lt),r.prototype.F1=lt-pt,r.prototype.F2=2*pt-lt;var at,ct,ut="0123456789abcdefghijklmnopqrstuvwxyz",gt=new Array;for(at="0".charCodeAt(0),ct=0;9&gt;=ct;++ct)gt[at++]=ct;for(at="a".charCodeAt(0),ct=10;36&gt;ct;++ct)gt[at++]=ct;for(at="A".charCodeAt(0),ct=10;36&gt;ct;++ct)gt[at++]=ct;P.prototype.convert=I,P.prototype.revert=H,P.prototype.reduce=M,P.prototype.mulTo=Q,P.prototype.sqrTo=D,j.prototype.convert=U,j.prototype.revert=O,j.prototype.reduce=B,j.prototype.mulTo=F,j.prototype.sqrTo=R,r.prototype.copyTo=d,r.prototype.fromInt=h,r.prototype.fromString=m,r.prototype.clamp=_,r.prototype.dlShiftTo=q,r.prototype.drShiftTo=S,r.prototype.lShiftTo=T,r.prototype.rShiftTo=C,r.prototype.subTo=x,r.prototype.multiplyTo=L,r.prototype.squareTo=N,r.prototype.divRemTo=E,r.prototype.invDigit=V,r.prototype.isEven=z,r.prototype.exp=G,r.prototype.toString=$,r.prototype.negate=v,r.prototype.abs=w,r.prototype.compareTo=y,r.prototype.bitLength=b,r.prototype.mod=A,r.prototype.modPowInt=W,r.ZERO=f(0),r.ONE=f(1);var dt,ht,ft;if(null==ht){ht=new Array,ft=0;var mt;if("Netscape"==navigator.appName&amp;&amp;navigator.appVersion&lt;"5"&amp;&amp;window.crypto&amp;&amp;window.crypto.random){var _t=window.crypto.random(32);for(mt=0;mt&lt;_t.length;++mt)ht[ft++]=255&amp;_t.charCodeAt(mt)}
+for(;$t&gt;ft;)mt=Math.floor(65536*Math.random()),ht[ft++]=mt&gt;&gt;&gt;8,ht[ft++]=255&amp;mt;ft=0,Z()}
+Y.prototype.nextBytes=J,tt.prototype.init=et,tt.prototype.next=it;var $t=256;return{rsa_encrypt:ot}}
+(),function(t){function e(){return Math.round(4294967295*Math.random())}
+function i(t,e,i){(!i||i&gt;4)&amp;&amp;(i=4);for(var n=0,o=e;e+i&gt;o;o++)n&lt;&lt;=8,n|=t[o];return(4294967295&amp;n)&gt;&gt;&gt;0}
+function n(t,e,i){t[e+3]=i&gt;&gt;0&amp;255,t[e+2]=i&gt;&gt;8&amp;255,t[e+1]=i&gt;&gt;16&amp;255,t[e+0]=i&gt;&gt;24&amp;255}
+function o(t){if(!t)return"";for(var e="",i=0;i&lt;t.length;i++){var n=Number(t[i]).toString(16);1==n.length&amp;&amp;(n="0"+n),e+=n}
+return e}
+function p(t){for(var e="",i=0;i&lt;t.length;i+=2)e+=String.fromCharCode(parseInt(t.substr(i,2),16));return e}
+function r(t,e){if(!t)return"";e&amp;&amp;(t=s(t));for(var i=[],n=0;n&lt;t.length;n++)i[n]=t.charCodeAt(n);return o(i)}
+function s(t){var e,i,n=[],o=t.length;for(e=0;o&gt;e;e++)i=t.charCodeAt(e),i&gt;0&amp;&amp;127&gt;=i?n.push(t.charAt(e)):i&gt;=128&amp;&amp;2047&gt;=i?n.push(String.fromCharCode(192|i&gt;&gt;6&amp;31),String.fromCharCode(128|63&amp;i)):i&gt;=2048&amp;&amp;65535&gt;=i&amp;&amp;n.push(String.fromCharCode(224|i&gt;&gt;12&amp;15),String.fromCharCode(128|i&gt;&gt;6&amp;63),String.fromCharCode(128|63&amp;i));return n.join("")}
+function l(t){_=new Array(8),$=new Array(8),v=w=0,b=!0,m=0;var i=t.length,n=0;m=(i+10)%8,0!=m&amp;&amp;(m=8-m),y=new Array(i+m+10),_[0]=255&amp;(248&amp;e()|m);for(var o=1;m&gt;=o;o++)_[o]=255&amp;e();m++;for(var o=0;8&gt;o;o++)$[o]=0;for(n=1;2&gt;=n;)8&gt;m&amp;&amp;(_[m++]=255&amp;e(),n++),8==m&amp;&amp;c();for(var o=0;i&gt;0;)8&gt;m&amp;&amp;(_[m++]=t[o++],i--),8==m&amp;&amp;c();for(n=1;7&gt;=n;)8&gt;m&amp;&amp;(_[m++]=0,n++),8==m&amp;&amp;c();return y}
+function a(t){var e=0,i=new Array(8),n=t.length;if(k=t,n%8!=0||16&gt;n)return null;if($=g(t),m=7&amp;$[0],e=n-m-10,0&gt;e)return null;for(var o=0;o&lt;i.length;o++)i[o]=0;y=new Array(e),w=0,v=8,m++;for(var p=1;2&gt;=p;)if(8&gt;m&amp;&amp;(m++,p++),8==m&amp;&amp;(i=t,!d()))return null;for(var o=0;0!=e;)if(8&gt;m&amp;&amp;(y[o]=255&amp;(i[w+m]^$[m]),o++,e--,m++),8==m&amp;&amp;(i=t,w=v-8,!d()))return null;for(p=1;8&gt;p;p++){if(8&gt;m){if(0!=(i[w+m]^$[m]))return null;m++}
+if(8==m&amp;&amp;(i=t,w=v,!d()))return null}
+return y}
+function c(){for(var t=0;8&gt;t;t++)_[t]^=b?$[t]:y[w+t];for(var e=u(_),t=0;8&gt;t;t++)y[v+t]=e[t]^$[t],$[t]=_[t];w=v,v+=8,m=0,b=!1}
+function u(t){for(var e=16,o=i(t,0,4),p=i(t,4,4),r=i(f,0,4),s=i(f,4,4),l=i(f,8,4),a=i(f,12,4),c=0,u=2654435769;e--&gt;0;)c+=u,c=(4294967295&amp;c)&gt;&gt;&gt;0,o+=(p&lt;&lt;4)+r^p+c^(p&gt;&gt;&gt;5)+s,o=(4294967295&amp;o)&gt;&gt;&gt;0,p+=(o&lt;&lt;4)+l^o+c^(o&gt;&gt;&gt;5)+a,p=(4294967295&amp;p)&gt;&gt;&gt;0;var g=new Array(8);return n(g,0,o),n(g,4,p),g}
+function g(t){for(var e=16,o=i(t,0,4),p=i(t,4,4),r=i(f,0,4),s=i(f,4,4),l=i(f,8,4),a=i(f,12,4),c=3816266640,u=2654435769;e--&gt;0;)p-=(o&lt;&lt;4)+l^o+c^(o&gt;&gt;&gt;5)+a,p=(4294967295&amp;p)&gt;&gt;&gt;0,o-=(p&lt;&lt;4)+r^p+c^(p&gt;&gt;&gt;5)+s,o=(4294967295&amp;o)&gt;&gt;&gt;0,c-=u,c=(4294967295&amp;c)&gt;&gt;&gt;0;var g=new Array(8);return n(g,0,o),n(g,4,p),g}
+function d(){for(var t=(k.length,0);8&gt;t;t++)$[t]^=k[v+t];return $=g($),v+=8,m=0,!0}
+function h(t,e){var i=[];if(e)for(var n=0;n&lt;t.length;n++)i[n]=255&amp;t.charCodeAt(n);else for(var o=0,n=0;n&lt;t.length;n+=2)i[o++]=parseInt(t.substr(n,2),16);return i}
+var f="",m=0,_=[],$=[],v=0,w=0,y=[],k=[],b=!0;t.TEA={encrypt:function(t,e){var i=h(t,e),n=l(i);return o(n)},enAsBase64:function(t,e){for(var i=h(t,e),n=l(i),o="",p=0;p&lt;n.length;p++)o+=String.fromCharCode(n[p]);return btoa(o)},decrypt:function(t){var e=h(t,!1),i=a(e);return o(i)},initkey:function(t,e){f=h(t,e)},bytesToStr:p,strToBytes:r,bytesInStr:o,dataFromStr:h};var q={};q.PADCHAR="=",q.ALPHA="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",q.getbyte=function(t,e){var i=t.charCodeAt(e);if(i&gt;255)throw"INVALID_CHARACTER_ERR: DOM Exception 5";return i},q.encode=function(t){if(1!=arguments.length)throw"SyntaxError: Not enough arguments";var e,i,n=q.PADCHAR,o=q.ALPHA,p=q.getbyte,r=[];t=""+t;var s=t.length-t.length%3;if(0==t.length)return t;for(e=0;s&gt;e;e+=3)i=p(t,e)&lt;&lt;16|p(t,e+1)&lt;&lt;8|p(t,e+2),r.push(o.charAt(i&gt;&gt;18)),r.push(o.charAt(i&gt;&gt;12&amp;63)),r.push(o.charAt(i&gt;&gt;6&amp;63)),r.push(o.charAt(63&amp;i));switch(t.length-s){case 1:i=p(t,e)&lt;&lt;16,r.push(o.charAt(i&gt;&gt;18)+o.charAt(i&gt;&gt;12&amp;63)+n+n);break;case 2:i=p(t,e)&lt;&lt;16|p(t,e+1)&lt;&lt;8,r.push(o.charAt(i&gt;&gt;18)+o.charAt(i&gt;&gt;12&amp;63)+o.charAt(i&gt;&gt;6&amp;63)+n)}
+return r.join("")},window.btoa||(window.btoa=q.encode)}
+(window),$=window.$||{},$pt=window.$pt||{},$.Encryption=$pt.Encryption=function(){function t(t){return e(t)}
+function e(t){return u(i(c(t),t.length*_))}
+function i(t,e){t[e&gt;&gt;5]|=128&lt;&lt;e%32,t[(e+64&gt;&gt;&gt;9&lt;&lt;4)+14]=e;for(var i=1732584193,n=-271733879,a=-1732584194,c=271733878,u=0;u&lt;t.length;u+=16){var g=i,d=n,h=a,f=c;i=o(i,n,a,c,t[u+0],7,-680876936),c=o(c,i,n,a,t[u+1],12,-389564586),a=o(a,c,i,n,t[u+2],17,606105819),n=o(n,a,c,i,t[u+3],22,-1044525330),i=o(i,n,a,c,t[u+4],7,-176418897),c=o(c,i,n,a,t[u+5],12,1200080426),a=o(a,c,i,n,t[u+6],17,-1473231341),n=o(n,a,c,i,t[u+7],22,-45705983),i=o(i,n,a,c,t[u+8],7,1770035416),c=o(c,i,n,a,t[u+9],12,-1958414417),a=o(a,c,i,n,t[u+10],17,-42063),n=o(n,a,c,i,t[u+11],22,-1990404162),i=o(i,n,a,c,t[u+12],7,1804603682),c=o(c,i,n,a,t[u+13],12,-40341101),a=o(a,c,i,n,t[u+14],17,-1502002290),n=o(n,a,c,i,t[u+15],22,1236535329),i=p(i,n,a,c,t[u+1],5,-165796510),c=p(c,i,n,a,t[u+6],9,-1069501632),a=p(a,c,i,n,t[u+11],14,643717713),n=p(n,a,c,i,t[u+0],20,-373897302),i=p(i,n,a,c,t[u+5],5,-701558691),c=p(c,i,n,a,t[u+10],9,38016083),a=p(a,c,i,n,t[u+15],14,-660478335),n=p(n,a,c,i,t[u+4],20,-405537848),i=p(i,n,a,c,t[u+9],5,568446438),c=p(c,i,n,a,t[u+14],9,-1019803690),a=p(a,c,i,n,t[u+3],14,-187363961),n=p(n,a,c,i,t[u+8],20,1163531501),i=p(i,n,a,c,t[u+13],5,-1444681467),c=p(c,i,n,a,t[u+2],9,-51403784),a=p(a,c,i,n,t[u+7],14,1735328473),n=p(n,a,c,i,t[u+12],20,-1926607734),i=r(i,n,a,c,t[u+5],4,-378558),c=r(c,i,n,a,t[u+8],11,-2022574463),a=r(a,c,i,n,t[u+11],16,1839030562),n=r(n,a,c,i,t[u+14],23,-35309556),i=r(i,n,a,c,t[u+1],4,-1530992060),c=r(c,i,n,a,t[u+4],11,1272893353),a=r(a,c,i,n,t[u+7],16,-155497632),n=r(n,a,c,i,t[u+10],23,-1094730640),i=r(i,n,a,c,t[u+13],4,681279174),c=r(c,i,n,a,t[u+0],11,-358537222),a=r(a,c,i,n,t[u+3],16,-722521979),n=r(n,a,c,i,t[u+6],23,76029189),i=r(i,n,a,c,t[u+9],4,-640364487),c=r(c,i,n,a,t[u+12],11,-421815835),a=r(a,c,i,n,t[u+15],16,530742520),n=r(n,a,c,i,t[u+2],23,-995338651),i=s(i,n,a,c,t[u+0],6,-198630844),c=s(c,i,n,a,t[u+7],10,1126891415),a=s(a,c,i,n,t[u+14],15,-1416354905),n=s(n,a,c,i,t[u+5],21,-57434055),i=s(i,n,a,c,t[u+12],6,1700485571),c=s(c,i,n,a,t[u+3],10,-1894986606),a=s(a,c,i,n,t[u+10],15,-1051523),n=s(n,a,c,i,t[u+1],21,-2054922799),i=s(i,n,a,c,t[u+8],6,1873313359),c=s(c,i,n,a,t[u+15],10,-30611744),a=s(a,c,i,n,t[u+6],15,-1560198380),n=s(n,a,c,i,t[u+13],21,1309151649),i=s(i,n,a,c,t[u+4],6,-145523070),c=s(c,i,n,a,t[u+11],10,-1120210379),a=s(a,c,i,n,t[u+2],15,718787259),n=s(n,a,c,i,t[u+9],21,-343485551),i=l(i,g),n=l(n,d),a=l(a,h),c=l(c,f)}
+return 16==v?Array(n,a):Array(i,n,a,c)}
+function n(t,e,i,n,o,p){return l(a(l(l(e,t),l(n,p)),o),i)}
+function o(t,e,i,o,p,r,s){return n(e&amp;i|~e&amp;o,t,e,p,r,s)}
+function p(t,e,i,o,p,r,s){return n(e&amp;o|i&amp;~o,t,e,p,r,s)}
+function r(t,e,i,o,p,r,s){return n(e^i^o,t,e,p,r,s)}
+function s(t,e,i,o,p,r,s){return n(i^(e|~o),t,e,p,r,s)}
+function l(t,e){var i=(65535&amp;t)+(65535&amp;e),n=(t&gt;&gt;16)+(e&gt;&gt;16)+(i&gt;&gt;16);return n&lt;&lt;16|65535&amp;i}
+function a(t,e){return t&lt;&lt;e|t&gt;&gt;&gt;32-e}
+function c(t){for(var e=Array(),i=(1&lt;&lt;_)-1,n=0;n&lt;t.length*_;n+=_)e[n&gt;&gt;5]|=(t.charCodeAt(n/_)&amp;i)&lt;&lt;n%32;return e}
+function u(t){for(var e=m?"0123456789ABCDEF":"0123456789abcdef",i="",n=0;n&lt;4*t.length;n++)i+=e.charAt(t[n&gt;&gt;2]&gt;&gt;n%4*8+4&amp;15)+e.charAt(t[n&gt;&gt;2]&gt;&gt;n%4*8&amp;15);return i}
+function uin2hex(str){var maxLength=16;str=parseInt(str);for(var hex=str.toString(16),len=hex.length,i=len;maxLength&gt;i;i++)hex="0"+hex;for(var arr=[],j=0;maxLength&gt;j;j+=2)arr.push("\\x"+hex.substr(j,2));var result=arr.join("");return eval('result="'+result+'"'),result;}
+function g(t){for(var e=[],i=0;i&lt;t.length;i+=2)e.push(String.fromCharCode(parseInt(t.substr(i,2),16)));return e.join("")}
+function h(e,i,n,o){n=n||"",e=e||"";i=uin2hex(i);for(var p=o?e:t(e),r=g(p),s=t(r+i),l=window.TEA.strToBytes(n.toUpperCase(),!0),a=Number(l.length/2).toString(16);a.length&lt;4;)a="0"+a;window.TEA.initkey(s);var c=window.TEA.encrypt(p+window.TEA.strToBytes(i)+a+l);window.TEA.initkey("");for(var u=Number(c.length/2).toString(16);u.length&lt;4;)u="0"+u;var h=pt.RSA.rsa_encrypt(g(u+c));return window.btoa(g(h)).replace(/[\/\+=]/g,function(t){return{"/":"-","+":"*","=":"_"}
+[t]})}
+function f(e,i,n){var o=n?e:t(e),p=o+i.toUpperCase(),r=RSA.rsa_encrypt(p);return r}
+var m=1,_=8,v=32;return{getEncryption:h,getRSAEncryption:f,md5:t}}
+()
+function getEncryption(e,i,n){var p=$.Encryption.getEncryption(e,i,n);return p;}</value>
+  </data>
+  <data name="提交UA" xml:space="preserve">
+    <value>user-agent:Mozilla/5.0 (iPhone; CPU iPhone OS 9_1 like Mac OS X) AppleWebKit/601.1.46 (KHTML, like Gecko) Version/9.0 Mobile/13B143 Safari/601.1</value>
+  </data>
+  <data name="轨迹加密js" xml:space="preserve">
+    <value>var x = 0; 
+var blockSize = 4;
+var key = '0123456789abcdef';
+var _map = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
+var screenInfo = '414-736-1040-24-*-*-*';
+var resolutionx = 414; 
+var resolutiony = 736; 
+var winSize = new Array(414, 736); 
+var ratio = 1.6;
+var ft = '63_7Pfn7H';
+var jshook = 5;
+var os = 'IOS';
+var a = 774696253;
+var index = 0;
+var tokenid = 774696253;
+var tokents = 1515642445;
+var coordinate = new Array(0, 0, 0.6304);
+var elapsed = 1000;
+var mouseUpCnt = 3;
+var user_Agent = 'safari/602.1';
+var mousemove = new Array(); 
+var slideValue = new Array(11,22);
+var param = new Array();
+var _keySchedule = new Array();
+var _invKeySchedule = new Array();
+var _prevBlock = new Array();
+var words = new Array();
+var sigBytes = 0;
+var _nRounds;
+var begintime;
+var endtime;
+var _iv;
+var sigBytes;
+var $_0x286c9e = new Array();
+var $_0x2cf70f = new Array();
+var $_0xcf4d11 = new Array();
+var $_0x1561c2 = new Array();
+var $_0xb9cfe = new Array();
+var $_0x8abaa8 = new Array();
+var $_0x54c473 = new Array();
+var $_0x8c33af = new Array();
+var $_0x33af7c = new Array();
+var $_0x4143fa = new Array();
+var $_0x4905e3 = new Array();
+var $_0x53e3d2 = new Array();
+var $_0x9dba = new Array();
+if (typeof JSON !== 'object') {
+    JSON = {};
+}
+
+(function () {
+    'use strict';
+
+    var rx_one = /^[\],:{}\s]*$/,
+        rx_two = /\\(?:["\\\/bfnrt]|u[0-9a-fA-F]{4})/g,
+        rx_three = /"[^"\\\n\r]*"|true|false|null|-?\d+(?:\.\d*)?(?:[eE][+\-]?\d+)?/g,
+        rx_four = /(?:^|:|,)(?:\s*\[)+/g,
+        rx_escapable = /[\\\"\u0000-\u001f\u007f-\u009f\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g,
+        rx_dangerous = /[\u0000\u00ad\u0600-\u0604\u070f\u17b4\u17b5\u200c-\u200f\u2028-\u202f\u2060-\u206f\ufeff\ufff0-\uffff]/g;
+
+    function f(n) {
+        // Format integers to have at least two digits.
+        return n &lt; 10 
+            ? '0' + n 
+            : n;
+    }
+
+    function this_value() {
+        return this.valueOf();
+    }
+
+    if (typeof Date.prototype.toJSON !== 'function') {
+
+        Date.prototype.toJSON = function () {
+
+            return isFinite(this.valueOf())
+                ? this.getUTCFullYear() + '-' +
+                        f(this.getUTCMonth() + 1) + '-' +
+                        f(this.getUTCDate()) + 'T' +
+                        f(this.getUTCHours()) + ':' +
+                        f(this.getUTCMinutes()) + ':' +
+                        f(this.getUTCSeconds()) + 'Z'
+                : null;
+        };
+
+        Boolean.prototype.toJSON = this_value;
+        Number.prototype.toJSON = this_value;
+        String.prototype.toJSON = this_value;
+    }
+
+    var gap,
+        indent,
+        meta,
+        rep;
+
+
+    function quote(string) {
+
+// If the string contains no control characters, no quote characters, and no
+// backslash characters, then we can safely slap some quotes around it.
+// Otherwise we must also replace the offending characters with safe escape
+// sequences.
+
+        rx_escapable.lastIndex = 0;
+        return rx_escapable.test(string) 
+            ? '"' + string.replace(rx_escapable, function (a) {
+                var c = meta[a];
+                return typeof c === 'string'
+                    ? c
+                    : '\\u' + ('0000' + a.charCodeAt(0).toString(16)).slice(-4);
+            }) + '"' 
+            : '"' + string + '"';
+    }
+
+
+    function str(key, holder) {
+
+// Produce a string from holder[key].
+
+        var i,          // The loop counter.
+            k,          // The member key.
+            v,          // The member value.
+            length,
+            mind = gap,
+            partial,
+            value = holder[key];
+
+// If the value has a toJSON method, call it to obtain a replacement value.
+
+        if (value &amp;&amp; typeof value === 'object' &amp;&amp;
+                typeof value.toJSON === 'function') {
+            value = value.toJSON(key);
+        }
+
+// If we were called with a replacer function, then call the replacer to
+// obtain a replacement value.
+
+        if (typeof rep === 'function') {
+            value = rep.call(holder, key, value);
+        }
+
+// What happens next depends on the value's type.
+
+        switch (typeof value) {
+        case 'string':
+            return quote(value);
+
+        case 'number':
+
+// JSON numbers must be finite. Encode non-finite numbers as null.
+
+            return isFinite(value) 
+                ? String(value) 
+                : 'null';
+
+        case 'boolean':
+        case 'null':
+
+// If the value is a boolean or null, convert it to a string. Note:
+// typeof null does not produce 'null'. The case is included here in
+// the remote chance that this gets fixed someday.
+
+            return String(value);
+
+// If the type is 'object', we might be dealing with an object or an array or
+// null.
+
+        case 'object':
+
+// Due to a specification blunder in ECMAScript, typeof null is 'object',
+// so watch out for that case.
+
+            if (!value) {
+                return 'null';
+            }
+
+// Make an array to hold the partial results of stringifying this object value.
+
+            gap += indent;
+            partial = [];
+
+// Is the value an array?
+
+            if (Object.prototype.toString.apply(value) === '[object Array]') {
+
+// The value is an array. Stringify every element. Use null as a placeholder
+// for non-JSON values.
+
+                length = value.length;
+                for (i = 0; i &lt; length; i += 1) {
+                    partial[i] = str(i, value) || 'null';
+                }
+
+// Join all of the elements together, separated with commas, and wrap them in
+// brackets.
+
+                v = partial.length === 0
+                    ? '[]'
+                    : gap
+                        ? '[\n' + gap + partial.join(',\n' + gap) + '\n' + mind + ']'
+                        : '[' + partial.join(',') + ']';
+                gap = mind;
+                return v;
+            }
+
+// If the replacer is an array, use it to select the members to be stringified.
+
+            if (rep &amp;&amp; typeof rep === 'object') {
+                length = rep.length;
+                for (i = 0; i &lt; length; i += 1) {
+                    if (typeof rep[i] === 'string') {
+                        k = rep[i];
+                        v = str(k, value);
+                        if (v) {
+                            partial.push(quote(k) + (
+                                gap 
+                                    ? ': ' 
+                                    : ':'
+                            ) + v);
+                        }
+                    }
+                }
+            } else {
+
+// Otherwise, iterate through all of the keys in the object.
+
+                for (k in value) {
+                    if (Object.prototype.hasOwnProperty.call(value, k)) {
+                        v = str(k, value);
+                        if (v) {
+                            partial.push(quote(k) + (
+                                gap 
+                                    ? ': ' 
+                                    : ':'
+                            ) + v);
+                        }
+                    }
+                }
+            }
+
+// Join all of the member texts together, separated with commas,
+// and wrap them in braces.
+
+            v = partial.length === 0
+                ? '{}'
+                : gap
+                    ? '{\n' + gap + partial.join(',\n' + gap) + '\n' + mind + '}'
+                    : '{' + partial.join(',') + '}';
+            gap = mind;
+            return v;
+        }
+    }
+
+// If the JSON object does not yet have a stringify method, give it one.
+
+    if (typeof JSON.stringify !== 'function') {
+        meta = {    // table of character substitutions
+            '\b': '\\b',
+            '\t': '\\t',
+            '\n': '\\n',
+            '\f': '\\f',
+            '\r': '\\r',
+            '"': '\\"',
+            '\\': '\\\\'
+        };
+        JSON.stringify = function (value, replacer, space) {
+
+// The stringify method takes a value and an optional replacer, and an optional
+// space parameter, and returns a JSON text. The replacer can be a function
+// that can replace values, or an array of strings that will select the keys.
+// A default replacer method can be provided. Use of the space parameter can
+// produce text that is more easily readable.
+
+            var i;
+            gap = '';
+            indent = '';
+
+// If the space parameter is a number, make an indent string containing that
+// many spaces.
+
+            if (typeof space === 'number') {
+                for (i = 0; i &lt; space; i += 1) {
+                    indent += ' ';
+                }
+
+// If the space parameter is a string, it will be used as the indent string.
+
+            } else if (typeof space === 'string') {
+                indent = space;
+            }
+
+// If there is a replacer, it must be a function or an array.
+// Otherwise, throw an error.
+
+            rep = replacer;
+            if (replacer &amp;&amp; typeof replacer !== 'function' &amp;&amp;
+                    (typeof replacer !== 'object' ||
+                    typeof replacer.length !== 'number')) {
+                throw new Error('JSON.stringify');
+            }
+
+// Make a fake root object containing our value under the key of ''.
+// Return the result of stringifying the value.
+
+            return str('', {'': value});
+        };
+    }
+
+
+// If the JSON object does not yet have a parse method, give it one.
+
+    if (typeof JSON.parse !== 'function') {
+        JSON.parse = function (text, reviver) {
+
+// The parse method takes a text and an optional reviver function, and returns
+// a JavaScript value if the text is a valid JSON text.
+
+            var j;
+
+            function walk(holder, key) {
+
+// The walk method is used to recursively walk the resulting structure so
+// that modifications can be made.
+
+                var k, v, value = holder[key];
+                if (value &amp;&amp; typeof value === 'object') {
+                    for (k in value) {
+                        if (Object.prototype.hasOwnProperty.call(value, k)) {
+                            v = walk(value, k);
+                            if (v !== undefined) {
+                                value[k] = v;
+                            } else {
+                                delete value[k];
+                            }
+                        }
+                    }
+                }
+                return reviver.call(holder, key, value);
+            }
+
+
+// Parsing happens in four stages. In the first stage, we replace certain
+// Unicode characters with escape sequences. JavaScript handles many characters
+// incorrectly, either silently deleting them, or treating them as line endings.
+
+            text = String(text);
+            rx_dangerous.lastIndex = 0;
+            if (rx_dangerous.test(text)) {
+                text = text.replace(rx_dangerous, function (a) {
+                    return '\\u' +
+                            ('0000' + a.charCodeAt(0).toString(16)).slice(-4);
+                });
+            }
+
+// In the second stage, we run the text against regular expressions that look
+// for non-JSON patterns. We are especially concerned with '()' and 'new'
+// because they can cause invocation, and '=' because it can cause mutation.
+// But just to be safe, we want to reject all unexpected forms.
+
+// We split the second stage into 4 regexp operations in order to work around
+// crippling inefficiencies in IE's and Safari's regexp engines. First we
+// replace the JSON backslash pairs with '@' (a non-JSON character). Second, we
+// replace all simple value tokens with ']' characters. Third, we delete all
+// open brackets that follow a colon or comma or that begin the text. Finally,
+// we look to see that the remaining characters are only whitespace or ']' or
+// ',' or ':' or '{' or '}'. If that is so, then the text is safe for eval.
+
+            if (
+                rx_one.test(
+                    text
+                        .replace(rx_two, '@')
+                        .replace(rx_three, ']')
+                        .replace(rx_four, '')
+                )
+            ) {
+
+// In the third stage we use the eval function to compile the text into a
+// JavaScript structure. The '{' operator is subject to a syntactic ambiguity
+// in JavaScript: it can begin a block or an object literal. We wrap the text
+// in parens to eliminate the ambiguity.
+
+                j = eval('(' + text + ')');
+
+// In the optional fourth stage, we recursively walk the new structure, passing
+// each name/value pair to a reviver function for possible transformation.
+
+                return typeof reviver === 'function'
+                    ? walk({'': j}, '')
+                    : j;
+            }
+
+// If the text is not JSON parseable, then a SyntaxError is thrown.
+
+            throw new SyntaxError('JSON.parse');
+        };
+    }
+}());
+for(var $i = 0; $i &lt; 0x100; $i++) {
+	$_0xcf4d11[$i] = 0x80 &gt; $i ? $i &lt;&lt; 0x1 : $i &lt;&lt; 0x1 ^ 0x11b;
+}
+for (var $_0x99928e = 0x0, $_0xcb565d = 0x0, $_0x41480e = 0x0; 0x100 &gt; $_0x41480e; $_0x41480e++) {
+	$_0x503272 = $_0xcb565d ^ $_0xcb565d &lt;&lt; 0x1 ^ $_0xcb565d &lt;&lt; 0x2 ^ $_0xcb565d &lt;&lt; 0x3 ^ $_0xcb565d &lt;&lt; 0x4;
+	$_0x503272 = ($_0x503272 &gt;&gt;&gt; 0x8) ^ $_0x503272 &amp; 0xff ^ 0x63;
+	$_0x286c9e[$_0x99928e] = $_0x503272;
+	$_0x2cf70f[$_0x503272] = $_0x99928e;
+	$_0xd9e496 = $_0xcf4d11[$_0x99928e];
+	$_0x130879 = $_0xcf4d11[$_0xd9e496];
+	$_0x21e846 = $_0xcf4d11[$_0x130879];
+	$_0x49c899 = 0x101 * $_0xcf4d11[$_0x503272] ^ 0x1010100 * $_0x503272;
+	$_0x1561c2[$_0x99928e] = $_0x49c899 &lt;&lt; 0x18 | ($_0x49c899 &gt;&gt;&gt; 0x8);
+	$_0xb9cfe[$_0x99928e] = $_0x49c899 &lt;&lt; 0x10 | ($_0x49c899 &gt;&gt;&gt; 0x10);
+	$_0x8abaa8[$_0x99928e] = $_0x49c899 &lt;&lt; 0x8 | ($_0x49c899 &gt;&gt;&gt; 0x18);
+	$_0x54c473[$_0x99928e] = $_0x49c899;
+	$_0x49c899 = 0x1010101 * $_0x21e846 ^ 0x10001 * $_0x130879 ^ 0x101 * $_0xd9e496 ^ 0x1010100 * $_0x99928e;
+	$_0x8c33af[$_0x503272] = $_0x49c899 &lt;&lt; 0x18 | ($_0x49c899 &gt;&gt;&gt; 0x8);
+	$_0x33af7c[$_0x503272] = $_0x49c899 &lt;&lt; 0x10 | ($_0x49c899 &gt;&gt;&gt; 0x10);
+	$_0x4143fa[$_0x503272] = $_0x49c899 &lt;&lt; 0x8 | ($_0x49c899 &gt;&gt;&gt; 0x18);
+	$_0x4905e3[$_0x503272] = $_0x49c899;
+	if($_0x99928e) {
+		$_0x99928e = $_0xd9e496 ^ $_0xcf4d11[$_0xcf4d11[$_0xcf4d11[$_0x21e846 ^ $_0xd9e496]]]; 
+		$_0xcb565d ^= $_0xcf4d11[$_0xcf4d11[$_0xcb565d]];
+	} else {
+		$_0x99928e = $_0xcb565d = 0x1;
+	}
+}
+var _0x53e3d2 = [0, 1, 2, 4, 8, 16, 32, 64, 128, 27, 54];
+var $sha256Key = $_0x286c9e;
+var $sha256Key1 = $_0x8c33af;
+var $sha256Key2 = $_0x33af7c;
+var $sha256Key3 = $_0x4143fa;
+var $sha256Key4 = $_0x4905e3;
+var $sha256Key5= $_0x1561c2;
+var $sha256Key6 = $_0xb9cfe;
+var $sha256Key7 = $_0x8abaa8;
+var $sha256Key8 = $_0x54c473;
+var $sha256Key9 = $_0x2cf70f;
+function getKey($x) {
+	x = $x;
+	var strJson = JSON.stringify(paramArr());
+	var strJsonSpace = strSpace(strJson);
+	param['keyvalue'] = new Array();
+	var key = encrypt(strJsonSpace);
+	return (key);
+}
+function encrypt($strJsonSpace) {
+	var $init = encUtf8Parse(key);
+	$init = getKeySchedule($init);
+	var $_keySchedule = $init[_keySchedule];
+	var $_invKeySchedule = $init[_invKeySchedule];
+	$init = getLatin1Parse($strJsonSpace);
+	var $words = $init[0];
+	var $sigBytes  = $init[1];
+	var _0x462a54 = $words,
+		_0x3a8f2e = $sigBytes,
+		_0x134566 = _map,
+		_0x1d1639 = [];
+	for (var i = 0; i &lt; _0x3a8f2e; i += 3) {
+		for ( j = 0; 4 &gt; j &amp;&amp; i + 0.75 * j &lt; _0x3a8f2e; j++) {
+			var a = (_0x462a54[i &gt;&gt;&gt; 2] &gt;&gt;&gt; 24 - 8 * (i % 4) &amp; 255) &lt;&lt; 16 | (_0x462a54[i + 1 &gt;&gt;&gt; 2] &gt;&gt;&gt; 24 - 8 * ((i + 1) % 4) &amp; 255) &lt;&lt; 8 | _0x462a54[i + 0x2 &gt;&gt;&gt; 2] &gt;&gt;&gt; 24 - 8 * ((i + 2) % 4) &amp; 255;
+			_0x1d1639.push(_0x134566.charAt(a &gt;&gt;&gt; 6 * (3 - j) &amp; 63));
+		}
+	}
+	if (_0x462a54 = _0x134566.charAt(64)) {
+		for (; _0x1d1639.length % 4;) {
+			_0x1d1639.push(_0x462a54);
+		}
+	}
+	return _0x1d1639.join("");
+}
+function getLatin1Parse($str) {
+	var $length = $str.length;
+	var $words = [];
+	var $ret = [];
+	var $sigBytes = [];
+	for($length, $words = [], $i = 0; $i &lt; $length; $i++) {
+		$words[($i &gt;&gt;&gt; 2)] |= ($str.charCodeAt($i) &amp; 255) &lt;&lt; 24 - 8 * ($i % 4);
+	}
+	var $ret = concat($words, $i);
+	$words = $ret[0];
+	$sigBytes = $ret[1];
+	return getLatin2Parse($words, $sigBytes);
+}
+function getLatin2Parse($words, $sigBytes, $reform) {
+$reform = true
+	$blockSize = blockSize;
+	$_minBufferSize = 0;
+	$multiple = $sigBytes / (0x4 * $blockSize);
+	$multiple = $reform ? Math.ceil($multiple) : Math.max(($multiple | 0x0) - $_minBufferSize, 0x0);
+	$reform = $multiple * $blockSize;
+	$sigBytes = Math.min(0x4 * $reform, $sigBytes);
+	if($reform) {
+		for (var $j = 0; $j &lt; $reform; $j += $blockSize) {
+			$words = processBlock($words, $j, $blockSize, $j);
+		}
+		$j = $words.splice(0x0, $reform);
+		sigBytes -= $sigBytes;
+	}
+	return [$j ? $j : $words, $sigBytes];
+}
+function processBlock($words, $num, $blockSize, $j) {
+	$words = processCall($words, $num, $blockSize);
+	$words = encryptBlock($words, $num, $j);
+	_prevBlock = $words.slice($num, $num + $blockSize);
+	return $words;
+}
+function encryptBlock($words, $num, $j) {
+	$_keySchedule = _keySchedule;
+	$words = _doCryptBlock($words, $num, $_keySchedule, $sha256Key5, $sha256Key6, $sha256Key7, $sha256Key8, $sha256Key);
+	return $words;
+}
+function _doCryptBlock($_0x2ed1ef, $_0xe958f0, $_0x4d0751, $_0x23edf6, $_0x1f2851, $_0x53eec4, $_0x1fe9e4, $_0x285fa8) {
+	for ($_0x4011da = _nRounds, $_0x2d963e = $_0x2ed1ef[$_0xe958f0] ^ $_0x4d0751[0x0], $_0x300ddb = $_0x2ed1ef[$_0xe958f0 + 0x1] ^ $_0x4d0751[0x1], $_0x126e2e = $_0x2ed1ef[$_0xe958f0 + 0x2] ^ $_0x4d0751[0x2], $_0xeb9a7b = $_0x2ed1ef[$_0xe958f0 + 0x3] ^ $_0x4d0751[0x3], $_0x5b1f2a = 0x4, $_0x1b1efd = 0x1; $_0x1b1efd &lt; $_0x4011da; $_0x1b1efd++) {
+		$_0x3298ca = $_0x23edf6[($_0x2d963e &gt;&gt;&gt; 0x18)] ^ $_0x1f2851[($_0x300ddb &gt;&gt;&gt; 0x10) &amp; 0xff] ^ $_0x53eec4[($_0x126e2e &gt;&gt;&gt; 0x8) &amp; 0xff] ^ $_0x1fe9e4[$_0xeb9a7b &amp; 0xff] ^ $_0x4d0751[$_0x5b1f2a++];
+		$_0x4462a4 = $_0x23edf6[($_0x300ddb &gt;&gt;&gt; 0x18)] ^ $_0x1f2851[($_0x126e2e &gt;&gt;&gt; 0x10) &amp; 0xff] ^ $_0x53eec4[($_0xeb9a7b &gt;&gt;&gt; 0x8) &amp; 0xff] ^ $_0x1fe9e4[$_0x2d963e &amp; 0xff] ^ $_0x4d0751[$_0x5b1f2a++];
+		$_0x193b01 = $_0x23edf6[($_0x126e2e &gt;&gt;&gt; 0x18)] ^ $_0x1f2851[($_0xeb9a7b &gt;&gt;&gt; 0x10) &amp; 0xff] ^ $_0x53eec4[($_0x2d963e &gt;&gt;&gt; 0x8) &amp; 0xff] ^ $_0x1fe9e4[$_0x300ddb &amp; 0xff] ^ $_0x4d0751[$_0x5b1f2a++];
+		$_0xeb9a7b = $_0x23edf6[($_0xeb9a7b &gt;&gt;&gt; 0x18)] ^ $_0x1f2851[($_0x2d963e &gt;&gt;&gt; 0x10) &amp; 0xff] ^ $_0x53eec4[($_0x300ddb &gt;&gt;&gt; 0x8) &amp; 0xff] ^ $_0x1fe9e4[$_0x126e2e &amp; 0xff] ^ $_0x4d0751[$_0x5b1f2a++];
+		$_0x2d963e = $_0x3298ca;
+		$_0x300ddb = $_0x4462a4;
+		$_0x126e2e = $_0x193b01;
+	}
+	$_0x3298ca = ($_0x285fa8[($_0x2d963e &gt;&gt;&gt; 0x18)] &lt;&lt; 0x18 | $_0x285fa8[($_0x300ddb &gt;&gt;&gt; 0x10) &amp; 0xff] &lt;&lt; 0x10 | $_0x285fa8[($_0x126e2e &gt;&gt;&gt; 0x8) &amp; 0xff] &lt;&lt; 0x8 | $_0x285fa8[$_0xeb9a7b &amp; 0xff]) ^ $_0x4d0751[$_0x5b1f2a++];
+	$_0x4462a4 = ($_0x285fa8[($_0x300ddb &gt;&gt;&gt; 0x18)] &lt;&lt; 0x18 | $_0x285fa8[($_0x126e2e &gt;&gt;&gt; 0x10) &amp; 0xff] &lt;&lt; 0x10 | $_0x285fa8[($_0xeb9a7b &gt;&gt;&gt; 0x8) &amp; 0xff] &lt;&lt; 0x8 | $_0x285fa8[$_0x2d963e &amp; 0xff]) ^ $_0x4d0751[$_0x5b1f2a++];
+	$_0x193b01 = ($_0x285fa8[($_0x126e2e &gt;&gt;&gt; 0x18)] &lt;&lt; 0x18 | $_0x285fa8[($_0xeb9a7b &gt;&gt;&gt; 0x10) &amp; 0xff] &lt;&lt; 0x10 | $_0x285fa8[($_0x2d963e &gt;&gt;&gt; 0x8) &amp; 0xff] &lt;&lt; 0x8 | $_0x285fa8[$_0x300ddb &amp; 0xff]) ^ $_0x4d0751[$_0x5b1f2a++];
+	$_0xeb9a7b = ($_0x285fa8[($_0xeb9a7b &gt;&gt;&gt; 0x18)] &lt;&lt; 0x18 | $_0x285fa8[($_0x2d963e &gt;&gt;&gt; 0x10) &amp; 0xff] &lt;&lt; 0x10 | $_0x285fa8[($_0x300ddb &gt;&gt;&gt; 0x8) &amp; 0xff] &lt;&lt; 0x8 | $_0x285fa8[$_0x126e2e &amp; 0xff]) ^ $_0x4d0751[$_0x5b1f2a++];
+	$_0x2ed1ef[$_0xe958f0] = $_0x3298ca;
+	$_0x2ed1ef[$_0xe958f0 + 0x1] = $_0x4462a4;
+	$_0x2ed1ef[$_0xe958f0 + 0x2] = $_0x193b01;
+	$_0x2ed1ef[$_0xe958f0 + 0x3] = $_0xeb9a7b;
+	return $_0x2ed1ef;
+}
+function processCall($words, $num, $blockSize) {
+	var $_0x4e3e46 = "";
+	$_iv = _iv;
+	$_iv ? _iv = $_0x4e3e46 : $_iv = _prevBlock;
+	for ($i = 0; $i &lt; $blockSize; $i++) {
+		$words[$num + $i] ^= $_iv[$i];
+	}
+	return $words;
+}
+function concat($words, $sigBytes) {
+	var $ret = pad($sigBytes);
+	var $_0x923cd9 = $ret[0];
+	var $_0x2e8f86 = $ret[1];
+	$_0x478e37 = $words;
+	$_0x1b3944 = $sigBytes;
+	if ($_0x1b3944 % 0x4) {
+		for ($_0x34e219 = 0; $_0x34e219 &lt; $_0x2e8f86; $_0x34e219++) {
+			$_0x478e37[$_0x1b3944 + $_0x34e219 &gt;&gt; 0x2] |= (($_0x923cd9[$_0x34e219 &gt;&gt; 0x2] &gt;&gt; (0x18 - 0x8 * ($_0x34e219 % 0x4))) &amp; 0xff) &lt;&lt; 0x18 - 0x8 * (($_0x1b3944 + $_0x34e219) % 0x4);
+		}
+	} else if(0xffff &lt; count($_0x923cd9)) {
+		for ($_0x34e219 = 0x0; $_0x34e219 &lt; $_0x2e8f86; $_0x34e219 += 0x4) {
+			$_0x478e37[$_0x1b3944 + $_0x34e219 &gt;&gt; 0x2] = $_0x923cd9[$_0x34e219 &gt;&gt; 0x2];
+		}
+	} else {
+		$_0x478e37.push($_0x923cd9);
+	}
+	$_0x1b3944 += $_0x2e8f86;
+	return [$_0x478e37, $_0x1b3944];
+}
+function pad( $_0x5556a9, $_0x244650 ) {
+$_0x244650 = 4
+	for (var $_0x4999d5 = 0x4 * $_0x244650, $_0x4999d5 = $_0x4999d5 - $_0x5556a9 % $_0x4999d5, $_0x151982 = $_0x4999d5 &lt;&lt; 0x18 | $_0x4999d5 &lt;&lt; 0x10 | $_0x4999d5 &lt;&lt; 0x8 | $_0x4999d5, $_0x329c6c = [], $_0x1d6a43 = 0x0; $_0x1d6a43 &lt; $_0x4999d5; $_0x1d6a43 += 0x4) {
+		$_0x329c6c.push($_0x151982);
+	}
+	return [$_0x329c6c, $_0x4999d5];
+}
+function encUtf8Parse($key) {
+	$key = unescape($key);
+	var length = $key.length
+	for (var i = length, _arr = [], _0x167c53 = 0; _0x167c53 &lt; i; _0x167c53++) {
+		_arr[_0x167c53 &gt;&gt;&gt; 2] |= ($key.charCodeAt(_0x167c53) &amp; 255) &lt;&lt; 24 - 8 * (_0x167c53 % 4);
+	}
+	_iv = _arr;
+	sigBytes = i;
+	return [_arr,i];
+}
+function getKeySchedule($init) {
+	$_iv = $init[0];
+	$sigBytes = ($init[1] / 4);
+	$byte = [0, 1, 2, 4, 8, 16, 32, 64, 128, 27, 54];
+	for ( var $j, $_iv, $sigBytes, $j = 4 * ((_nRounds = $sigBytes + 6 ) + 1), $_keySchedule = [], $i = 0; $i &lt; $j; $i++) {
+		if ($i &lt; $sigBytes) {
+			$_keySchedule[$i] =  $_iv[$i];
+		} else {
+			$arr1 = $_keySchedule[$i - 1];
+			if($i % $sigBytes) {
+				0x6 &lt; $sigBytes &amp;&amp; 0x4 == $i % $sigBytes &amp;&amp; ($arr1 = $sha256Key[$arr1 &gt;&gt; 24] &lt;&lt; 24 | $sha256Key[$arr1 &gt;&gt; 16 &amp; 255] &lt;&lt; 16 | $sha256Key[$arr1 &gt;&gt; 8 &amp; 255] &lt;&lt; 8 | $sha256Key[$arr1 &amp; 255]);
+			} else {
+				$arr1 = $arr1 &lt;&lt; 8 | ($arr1 &gt;&gt;&gt; 24); $arr1 = $sha256Key[($arr1 &gt;&gt;&gt; 0x18)] &lt;&lt; 0x18 | $sha256Key[($arr1 &gt;&gt;&gt; 0x10) &amp; 0xff] &lt;&lt; 0x10 | $sha256Key[($arr1 &gt;&gt;&gt; 0x8) &amp; 0xff] &lt;&lt; 0x8 | $sha256Key[$arr1 &amp; 255]; $arr1 ^= $byte[$i / $sigBytes | 0] &lt;&lt; 24;
+			}
+			$_keySchedule[$i]  = $_keySchedule[$i - $sigBytes] ^ $arr1;
+		}
+	}
+	for($sigBytes = 0, $_invKeySchedule = []; $sigBytes &lt; $j; $sigBytes++) {
+		$i = $j - $sigBytes;
+		$arr1 = $sigBytes % 0x4 ? $_keySchedule[$i] : $_keySchedule[$i - 0x4];
+		$_invKeySchedule[$sigBytes] = 0x4 &gt; $sigBytes || 0x4 &gt;= $i ? $arr1 : $sha256Key1[$sha256Key[($arr1 &gt;&gt;&gt; 0x18)]] ^ $sha256Key2[$sha256Key[($arr1 &gt;&gt;&gt; 0x10) &amp; 0xff]] ^  $sha256Key3[$sha256Key[($arr1 &gt;&gt;&gt; 0x8) &amp; 0xff]] ^ $sha256Key4[$sha256Key[$arr1 &amp; 0xff]];
+	}
+	_keySchedule = $_keySchedule;
+	_invKeySchedule = $_invKeySchedule;
+	return {'_keySchedule':$_keySchedule,'_invKeySchedule':$_invKeySchedule}
+
+} 
+function paramArr() {
+	var arr = {};
+	if(mousemove.length == 0) setMousemove();
+	arr['mouseclick']		=	new Array();
+	arr['keyvalue']			=	new Array();
+	arr['user_Agent']		=	user_Agent;
+	arr['resolutionx']		=	resolutionx;
+	arr['resolutiony']		=	resolutiony;
+	arr['winSize']			=	winSize;
+	arr['url']				=	'file:///C:/Users/Administrator/Desktop/cap4/%E9%AA%8C%E8%AF%81%E7%A0%81.htm';
+	arr['refer']			=	'';
+	arr['begintime']		=	begintime;
+	arr['endtime']			=	endtime;
+	arr['platform']			=	2;
+	arr['os']				=	os;
+	arr['keyboards']		=	rand(0,1);
+	arr['flash']			=	0;
+	arr['pluginNum']		=	0;
+	arr['index']			=	index;
+	arr['ptcz']				=	"";
+	arr['tokenid']			=	tokenid; 
+	arr['a']				=	a; 
+	arr['btokenid']			=	null; 
+	arr['tokents']			=	tokents; 
+	arr['ips']				=	new Array();
+	arr['colorDepth']		=	24;
+	arr['cookieEnabled']	=	true;
+	arr['timezone']			=	8;
+	arr['wDelta']			=	0;
+	arr['mousemove']		=	mousemove;
+	arr['keyUpCnt']			=	0;
+	arr['keyUpValue']		=	new Array();
+	arr['mouseUpValue']		=	new Array();
+	arr['mouseUpCnt']		=	index;
+	arr['mouseDownValue']	=	new Array();
+	arr['mouseDownCnt']		=	0;
+	arr['orientation']		=	new Array();
+	arr['bSimutor']			=	0;
+	arr['focusBlur']		=	{'in':[],'out':[],'t':[]};
+	arr['fVersion']			=	0;
+	arr['charSet']			=	'UTF-8';
+	arr['resizeCnt']		=	0;
+	arr['errors']			=	new Array();
+	arr['screenInfo']		=	screenInfo; 
+	arr['elapsed']			=	elapsed;
+
+	arr['clientType']		=	'1';
+	arr['coordinate']		=	coordinate;
+	arr['ft']				=	ft;
+	arr['jshook']			=	jshook;
+	arr['refreshcnt']		=	0;
+	arr['slideValue']		=	slideValue;
+	arr['trycnt']			=	index;
+	//ksort(arr);
+	param = arr;
+	return arr;
+}
+function setMousemove() {
+	$x = x;
+	var $diff_x = $x / ratio;
+	$start_x = rand(31,79);
+	var $end_x = Math.round($start_x + $diff_x);
+	$y = rand(210,260);
+	$deviation_y =  Math.round($x/mt_rand(95,105));
+	$start_diff_t = mt_rand(3,9);
+	$begintime = time() - $start_diff_t;
+	$endtime = time();
+	$t = mt_rand($start_diff_t * 1000, $start_diff_t * 1000 + 999) ;
+	$total_t = 0;
+	
+	var $mousemove = new Array();
+	for($j = 0, $i = $start_x; $i &lt; $end_x; $i = $i + mt_rand(1,2)) {
+		$x = $i;			
+		if($i &gt; Math.round($end_x/0.8)) {
+			$rand_t = mt_rand(60,180);
+		} else if($i &gt; Math.round($end_x/1.5)) {
+			$rand_t = mt_rand(5,10);
+		} else if($i &gt; Math.round($end_x/3)) {
+			$rand_t = mt_rand(2,9);
+		} else {
+			$rand_t = mt_rand(2,5);
+		}
+		$t += $rand_t;
+		$total_t += $rand_t;
+		if($y &lt;  mt_rand($y-3,$y+1) &amp;&amp; $j &lt;= $deviation_y ) {
+			$j++;
+			$y++;
+		}
+		$mousemove.push([$x, $y, $t])
+	}
+	begintime = Math.round($begintime);
+	endtime = Math.round($endtime);
+	index =  Math.round($start_diff_t/2);
+	var $mousemove = formatMousemove($mousemove);
+	mousemove = $mousemove;
+	var $slideValue = setSlideValue($mousemove);
+	slideValue = $slideValue;
+}
+function setSlideValue(mou) {
+	mou = JSON.parse(JSON.stringify(mou));//obj不值得为什么，会修改别的数值
+	var $total_t = 0;
+	for(var $i = 0; $i &lt; mou.length; $i++) {
+		if($i !== 0) {
+			$total_t += mou[$i][2];
+		}
+	}
+	mou[0][2] = mt_rand(10,35);
+	mou[1][2] = mou[1][2] - 1; 
+	mou[2][2] = mou[2][2] + 1; 
+	mou.push([0,0,111])
+	return mou;
+}
+function formatMousemove(_0x2e7bb2) {
+	var _0x5b5d45;
+	var _0x14114c = [];
+	for (var _0x43051a = 0x0; _0x43051a &lt; _0x2e7bb2.length; _0x43051a++) {
+		var _0xe5a3c8 = _0x2e7bb2[_0x43051a];
+		if (_0x43051a == 0x0) {
+			_0x14114c.push([_0xe5a3c8[0], _0xe5a3c8[1], _0xe5a3c8[2]]);
+		} else {
+			_0x14114c.push([_0xe5a3c8[0] - _0x5b5d45[0], _0xe5a3c8[1] - _0x5b5d45[1], Number((_0xe5a3c8[2] - _0x5b5d45[2])["toFixed"](0x3))]);
+		}
+		_0x5b5d45 = _0xe5a3c8;
+	}
+	return _0x14114c;
+}
+function mt_rand(minNum,maxNum){ 
+	switch(arguments.length){ 
+		case 1: 
+			return parseInt(Math.random()*minNum+1,10); 
+		break; 
+		case 2: 
+			return parseInt(Math.random()*(maxNum-minNum+1)+minNum,10); 
+		break; 
+			default: 
+				return 0; 
+			break; 
+	} 
+}
+function rand(minNum,maxNum){ 
+	switch(arguments.length){ 
+		case 1: 
+			return parseInt(Math.random()*minNum+1,10); 
+		break; 
+		case 2: 
+			return parseInt(Math.random()*(maxNum-minNum+1)+minNum,10); 
+		break; 
+			default: 
+				return 0; 
+			break; 
+	} 
+}
+function time() {
+	var real_time = new Date() / 1000; 
+	return real_time;
+}
+function strSpace($str) {
+	$strLen = 15 - $str.length % 16;
+	for (var $i = 0; $i &lt; $strLen; $i++) {
+		$str += " ";
+	}
+	return $str;
+}</value>
+  </data>
+</root>
